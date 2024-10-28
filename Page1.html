@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @keyframes scrollText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .scrolling-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollText 10s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <img src="pigier.png" alt="Logo pigier" align="left" width="120px" height="60px"/>
+       <img src="pigier.png" alt="Logo pigier" align="right" width="120px" height="60px"/>
+       <center><h1><em><div class="scrolling-text">Bienvenue sur ma page</div></em></h1></center>
+    </div>
+</body>
+</html>
